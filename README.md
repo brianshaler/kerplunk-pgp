@@ -1,6 +1,6 @@
 # kerplunk-pgp
 
-[Kerplunk](https://github.com/brianshaler/kerplunk) plugin. 
+[Kerplunk](https://github.com/brianshaler/kerplunk) plugin. Example of a core PGP key manager that can be accessed by plugins
 
 [![Build Status](https://travis-ci.org/brianshaler/kerplunk-pgp.svg)](https://travis-ci.org/brianshaler/kerplunk-pgp)
 [![npm version](https://img.shields.io/npm/v/kerplunk-pgp.svg)](https://www.npmjs.com/package/kerplunk-pgp)
