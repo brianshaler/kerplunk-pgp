@@ -32,5 +32,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/brianshaler/kerplunk-pgp.git"
-  }
+  },
+  "license": "MIT"
 }
