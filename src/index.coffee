@@ -98,6 +98,17 @@ module.exports = (System) ->
       .findOne()
       Promise(mpromise).then (pgpKey) ->
         pgpKey?.publicKey
+    signClearMessage: (message) ->
+      mpromise = Key
+      .where
+        name: 'primary'
+      .findOne()
+      Promise mpromise
+      .then (pgpKey) ->
+        privateKey = pgp.key.readArmored pgpKey?.privateKey
+        privateKey = privateKey.keys[0]
+        privateKey.decrypt('super long and hard to guess secret!')
+        pgp.signClearMessage [privateKey], message
 
   globals:
     public:
