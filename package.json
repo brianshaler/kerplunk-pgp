@@ -2,7 +2,7 @@
   "name": "kerplunk-pgp",
   "displayName": "PGP",
   "description": "Example of a core PGP key manager that can be accessed by plugins",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "kerplunk-plugin",
     "kp:Utility"
